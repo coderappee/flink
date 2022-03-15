@@ -74,6 +74,7 @@
 			<fileMode>0644</fileMode>
 		</file>
 
+		<!--
 		<file>
 			<source>../flink-filesystems/flink-s3-fs-hadoop/target/flink-s3-fs-hadoop-${project.version}.jar</source>
 			<outputDirectory>opt/</outputDirectory>
@@ -108,6 +109,7 @@
 			<destName>flink-gs-fs-hadoop-${project.version}.jar</destName>
 			<fileMode>0644</fileMode>
 		</file>
+		-->
 
 		<!-- Queryable State -->
 		<file>

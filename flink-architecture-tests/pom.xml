@@ -26,7 +26,7 @@ under the License.
 	<parent>
 		<groupId>org.apache.flink</groupId>
 		<artifactId>flink-parent</artifactId>
-		<version>1.16-SNAPSHOT</version>
+		<version>custom-test</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -36,7 +36,9 @@ under the License.
 
 	<modules>
 		<module>flink-architecture-tests-base</module>
+		<!--
 		<module>flink-architecture-tests-production</module>
+		-->
 		<module>flink-architecture-tests-test</module>
 	</modules>
 
@@ -118,7 +120,7 @@ under the License.
 			</dependency>
 
 			<!-- Connectors -->
-
+			<!--
 			<dependency>
 				<groupId>org.apache.flink</groupId>
 				<artifactId>flink-connector-base</artifactId>
@@ -251,6 +253,7 @@ under the License.
 				<version>${project.version}</version>
 				<scope>test</scope>
 			</dependency>
+			-->
 
 			<!-- Test Utils -->
 
